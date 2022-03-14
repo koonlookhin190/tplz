@@ -1,0 +1,432 @@
+.picture{
+    width: 100%;
+    text-align:left;
+    height: 100vh;
+    padding-left: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+   
+}
+.row>*{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.wc{
+    text-align: center;
+    vertical-align: middle;
+    padding:  23% 10% 18% 10%;
+    font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px;
+    background-color: #020202;
+}
+#resName{
+    color: gold;
+}
+#p1{
+    font-family: 'Dancing Script', cursive;      font-size: 120px;
+    margin-top: -40px;
+    padding-bottom: 70px;
+    color:gold;
+}
+#p2{
+    line-height: 15px;
+}
+#p2-2{
+    line-height: 15px;
+    margin-top: -20px;
+    margin-bottom: 35px;
+}
+#p3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+    line-height: 15px;
+
+}
+#p4{
+    margin-top: -25px;
+    line-height: 18px;
+}
+.button{
+    font-family: 'Roboto Condensed', sans-serif;
+
+    margin-top: 50px;
+    font-size: 30px;
+    background-color: gold;
+    line-height: 32px;
+}
+.button2{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 30px;
+    font-size: 30px;
+    background-color: gold;
+    line-height: 40px;
+}
+a:link , a:visited{
+    color: gold;
+}
+a > span{
+    color: black;
+}
+
+.IDPW{
+    text-align: right;
+    line-height: 35px;
+}
+
+#table{
+    position: relative;
+    left:125px;
+    width: 157.32px;
+    height: 115.38px;
+    margin-bottom: 50px;
+}
+
+#pHeader{
+    font-family: 'Dancing Script', cursive;      font-size: 120px;
+     color:black;
+     line-height: 80px;
+     font-size: 80px;
+
+}
+#selectTB{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+}
+.Header{
+    background-color: gold;
+    color:black;
+    text-align: center;
+
+}
+.mainBody{
+    background-image: url('/image/BG2.jpg');
+    background-size:cover;
+}
+.divBody{
+    height:100vh;
+    /*background-image: url('/image/chef.png') ;*/
+     background-color: #020202; 
+    box-shadow: #020202 0px 54px 55px,  #020202 0px -12px 30px, #020202 0px 4px 6px,  #020202 0px 12px 13px,  #020202 0px -3px 5px;
+   
+}
+.divBodyKitchen{
+  height:auto;
+  background-color: #020202;
+  box-shadow: #020202 0px 54px 55px,  #020202 0px -12px 30px, #020202 0px 4px 6px,  #020202 0px 12px 13px,  #020202 0px -3px 5px;
+ 
+}
+
+.modal{
+    color:black;
+}
+
+#TBnumber{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  .ul_menu{
+      margin-bottom:20px ;
+  }
+
+.li_menu {
+    float: left;
+}
+  li {
+    float: left;
+  }
+  .li_order {
+    float: right;
+  }
+
+  li span {
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li span:hover {
+    background-color: white;
+    color: #020202;
+  } 
+
+ /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .sidenavRight {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+   /* The navigation menu links */
+   .sidenavRight a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenavRight a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenavRight .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    
+  }
+  @media screen and (max-width: 400px) {
+    #welcomeIMG {height: 100px;}
+    .middleIMG {
+     height:350px;
+     width: 350px;
+     padding-left: 10px;
+    }
+  
+  }
+
+  .menu_box{
+      width: 200px;
+      height: 220px;
+      margin: 20px;
+  }
+  .menu_box > form > h1 {
+      color: white;
+      font-size: 20px;
+  }
+  #categories_name {
+      color: gold;
+      font-size: 30px;
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+.menu_img {
+    width: 200px;
+    height: 150px;
+}
+
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+
+  
+#Order {
+  color: white;
+}
+
+#myModal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-content.cb {
+  color: white;
+  background-color: #020202;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  font-family: 'Source Sans Pro', sans-serif; font-size: 20px; line-height: 32px;
+}
+#CFbutton {
+  font-family: 'Roboto Condensed', sans-serif;
+
+  margin-top: 50px;
+  font-size: 30px;
+  background-color: gold;
+  line-height: 32px;
+}
+.CFbutton {
+  font-family: 'Roboto Condensed', sans-serif;
+
+  margin-top: 50px;
+  font-size: 30px;
+  background-color: gold;
+  line-height: 32px;
+}
+.KTbutton {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  background-color: gold;
+  line-height: 22px;
+}
+
+#CFmenubutton {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  background-color: gold;
+  line-height: 25px;
+}
+
+#MenuList {
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif; 
+  line-height: 20px;
+}
+
+#changeFont{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#mySearch {
+  box-shadow: 0px 2px 0px 0px white;
+border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1.5em;
+  outline: none;
+}
+#mySearch input[type=text] {
+  box-shadow: 0px 2px 0px 0px white;
+border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1.5em;
+  outline: none;
+}
+
+.orderList {
+  border: white 1px solid;
+  margin: 20px;
+  padding: 15px;
+  
+}
+
+
+#myRequest {
+  box-shadow: 0px 2px 0px 0px white;
+border: none;
+  background: none;
+  height: 80%;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+}
+#myRequest input[type=text] {
+  box-shadow: 0px 2px 0px 0px white;
+border: none;
+height: 80%;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+}
+
+.middleIMG {
+ text-align: center;
+}
